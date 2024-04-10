@@ -1,0 +1,10 @@
+name: Buid test project
+
+on: push
+
+jobs:
+    buid_test_app:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout actions
+              uses: actions/checkout@v3
