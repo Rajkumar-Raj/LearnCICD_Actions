@@ -3,7 +3,13 @@ name: Buid test project
 on: push
 
 jobs:
-    buid_test_app:
+    buid_test_app1:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout actions
+              uses: actions/checkout@v3
+
+    buid_test_app2:
         runs-on: ubuntu-latest
         steps:
             - name: checkout actions
