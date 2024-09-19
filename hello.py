@@ -1,2 +1,2 @@
-msg = "test pythin";
+msg = "test python";
 print(msg);
